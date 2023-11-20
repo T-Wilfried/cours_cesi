@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>LAMP STACK</title>
-        <link rel="shortcut icon" href="/assets/images/favicon.svg" type="image/svg+xml">
-        <link rel="stylesheet" href="/assets/css/bulma.min.css">
+        <link rel="shortcut icon" href="/stack/assets/images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="/stack/assets/css/bulma.min.css">
     </head>
     <body>
         <section class="hero is-medium is-info is-bold">
@@ -53,10 +53,10 @@
                         <hr>
                         <div class="content">
                             <ul>
-                                <li><a href="/phpinfo.php">phpinfo()</a></li>
+                                <li><a href="/stack/phpinfo.phpfo.php">phpinfo()</a></li>
                                 <li><a href="http://localhost:<? print $_ENV['PMA_PORT']; ?>">phpMyAdmin</a></li>
-                                <li><a href="/test_db.php">Test DB Connection with mysqli</a></li>
-                                <li><a href="/test_db_pdo.php">Test DB Connection with PDO</a></li>
+                                <li><a href="/stack/test_db.phpdb.php">Test DB Connection with mysqli</a></li>
+                                <li><a href="/stack/test_db_pdo.phpdo.php">Test DB Connection with PDO</a></li>
                             </ul>
                         </div>
                     </div>
