@@ -21,7 +21,7 @@ function parler($prenom, $boisson){
 
 
 function convert(float $temp, $type_1 = "Farehenheit", $type_2 = "Celcius"){
-    if($type_1 = ){
+    if($type_1 = 0){
         $conv = ($temp - 32)/1.8;
         return $conv;
     }
