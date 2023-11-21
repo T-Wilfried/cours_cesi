@@ -1,7 +1,7 @@
 <?php require ("../inc/config.php"); ?>
 <?php require ("../inc/header.php"); ?>
     <h1>Le BIG article</h1>
-    <form action="article_show.php" method="post">
+    <form action="article_add_script.php" method="post">
         <input type="text" name="titre">
         <textarea name="description"></textarea>
         <input type="date" name="datepublication">

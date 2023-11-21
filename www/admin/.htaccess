@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Espace Admin veuillez vous logger"
+AuthUserFile ./.htpasswd
+require valid-user
